@@ -1,0 +1,31 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    border-collapse: separate;
+    border-spacing: 10px 50px;
+    width: 80%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    left: 100px;
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    left: 100px;
+    padding-right: 20px; /* Add some right padding */
+    line-height: 200px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+.C{width: 40%; background-color: #808080;}
+.Java{width: 40%; background-color: #f44336;}
+.SPSS {width: 75%; background-color: #2196F3;}
+.Mailchimp {width: 75%; background-color:#4CAF50; }
+.Social{width: 95%; background-color: #808080 }/*Dark Grey*/
+.Dutch {width: 100%; background-color: #4CAF50;} /* Green */
+.English {width: 100%; background-color: #2196F3;} /* Blue */
+.French {width: 80%; background-color: #f44336;} /* Red */
+.German {width: 30%; background-color: #808080;} /* Dark Grey */
+.Spanish {width: 40%; background-color: #4CAF50;} /* Green */
+.Microsoft {width: 95%; background-color: #2196F3;} /* Blue */
+.PhotoshopIndesign {width: 80%; background-color: #f44336;} /* Red *

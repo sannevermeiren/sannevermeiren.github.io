@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+    <title>CVSanneVermeiren</title>
+</head>
+<body>
+<nav>
+    <ul class="w3-navbar w3-black" >
+        <li><a href="index.html">Home</a></li>
+        <li><a href="html/Academic.html">Academic</a></li>
+        <li><a href="html/Professional.html">Professional</a></li>
+        <li><a href="html/Contact.html">Contact</a></li>
+        <li><a href="html/Skills.html">Skills</a></li>
+        <li><a href="html/Personality.html">Personality</a></li>
+    </ul>
+</nav>
+
+
+<section class="=w3-container w3-content w3-center" style="max-width:600px">
+    <img class="mySlides" src="images/img_me.jpg" style="width:100%">
+    <img class="mySlides" src="images/img_vlerick.jpg" style="width:100%">
+    <img class="mySlides" src="images/img_letland.jpg" style="width:100%">
+</section>
+
+<section class="w3-container w3-content w3-center" style="max-width:600px">
+    <h2 class="w3-wide">BIO</h2>
+    <p class="w3-opacity"><i>Let's do business together</i></p>
+    <p class="w3-justify">Looking for a born-ready marketeer with a passion for IT?
+        Than we might be a picture perfect match!
+        Marketing and business management are my cup of tea, so you won't be surprised when you have a look at my academical background.
+        What might surprise you is my current job... Technical Software Engineer. A little shocked, aren't you?!
+        Well it's not that much of a career twist! Everything nowadays is automatized and digital, so I was eager to broaden my technical background.
+        Have a look at your own business processes, how much of them are controlled by computers? It might come in handy to be able to understand and adapt the programs that are helping you develop your business isn't it?
+        As a marketeer I noticed the same ongoing process, we're floating away from the classic print-adds, heading for the big digital ocean.
+        Since I feel like you need to be one step ahead of new trends, I decided to jump into software development, going the extra mile to help businesses develop at a fast pace.
+        Feel free to have a look at my academic and professional experience, and let's meet!
+
+
+    </p>
+</section>
+
+<footer class="w3-container w3-padding-32 w3-center w3-black w3-xlarge">
+    <a href="https://www.facebook.com/sannekhl"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://www.linkedin.com/in/sanne-vermeiren-b4590060/"><i class="fa fa-linkedin"></i></a>
+    <a href="https://nl.pinterest.com/sannekhl/"><i class="fa fa-pinterest-p"></i></a>
+    <a href="https://twitter.com/SanneVermeiren"><i class="fa fa-twitter"></i></a>
+    <p class = "w3-medium">
+    </p>
+</footer>
+
+<script>
+    var myIndex = 0;
+    carousel ();
+
+    function carousel() {
+        var i;
+        var x =
+            document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 3000);
+    }
+    </script>
+
+</body>
+</html>
